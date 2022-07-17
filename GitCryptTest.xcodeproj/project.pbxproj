@@ -23,6 +23,7 @@
 		D008F2362884535000248BB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D008F23F28845CE000248BB0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D008F24028845CE000248BB0 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		D008F243288465AC00248BB0 /* Unsecret.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Unsecret.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 				D008F2312884534F00248BB0 /* ContentView.swift */,
 				D008F2332884535000248BB0 /* Assets.xcassets */,
 				D008F2352884535000248BB0 /* Preview Content */,
+				D008F243288465AC00248BB0 /* Unsecret.txt */,
 			);
 			path = GitCryptTest;
 			sourceTree = "<group>";
