@@ -1,1 +1,2 @@
 *.xcuserstate
+.git/git-crypt/keys/**

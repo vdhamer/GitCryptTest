@@ -24,7 +24,6 @@
 		D008F23F28845CE000248BB0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D008F24028845CE000248BB0 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		D008F243288465AC00248BB0 /* Unsecret.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Unsecret.txt; sourceTree = "<group>"; };
-		D008F2452884664E00248BB0 /* Secret.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Secret.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +63,6 @@
 				D008F2332884535000248BB0 /* Assets.xcassets */,
 				D008F2352884535000248BB0 /* Preview Content */,
 				D008F243288465AC00248BB0 /* Unsecret.txt */,
-				D008F2452884664E00248BB0 /* Secret.txt */,
 			);
 			path = GitCryptTest;
 			sourceTree = "<group>";
