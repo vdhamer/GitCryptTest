@@ -1,5 +1,5 @@
-#GitCryptTest
-##Test of git-crypt with XCode
+#GitCryptTest#
+##Test of git-crypt with XCode##
 
 The software has an encrypted `Secret.txt` file and an unencrypted `Unsecret.txt` file.
 `Secret.txt` merely contains `Hello, secret World!` and `Unsecret.txt` contains `Hello, World!`. So don't lose any sleep over trying to get inside.
@@ -31,5 +31,6 @@ Footnote: on Apple Silicon Macs, you will have to adapt the path names to the .g
     smudge = \"/opt/homebrew/bin/git-crypt\" smudge
     clean = \"/opt/homebrew/bin/git-crypt\" clean
     required = true
+    
 [diff "git-crypt"]
     textconv = \"/opt/homebrew/bin/git-crypt\" diff`
