@@ -1,9 +1,9 @@
 # GitCryptTest
 
-## Test of git-crypt within an XCode project
+### Test of git-crypt within an XCode project
 
 The software has an encrypted `Secret.txt` file and an unencrypted `Unsecret.txt` file.
-`Secret.txt` merely contains `Hello, secret World!` and `Unsecret.txt` contains `Hello, World!`. So don't lose any sleep over trying to get inside.
+`Secret.txt` merely contains `Hello, secret World!` and `Unsecret.txt` contains `Hello, World!`. So don't lose any sleep over trying to get inside. In fact, you will find numerous unencrypted copies in the GitHub history: GitHub really doesn't want you to enable you to delete them in a reasonable way.
 
 The `Secret.txt` file is configured to be encrypted and decrypted by [git-crypt](https://github.com/AGWA/git-crypt).
 
