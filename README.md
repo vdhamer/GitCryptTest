@@ -1,4 +1,5 @@
 #GitCryptTest#
+
 ##Test of git-crypt with XCode##
 
 The software has an encrypted `Secret.txt` file and an unencrypted `Unsecret.txt` file.
