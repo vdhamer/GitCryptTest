@@ -19,3 +19,17 @@ Why not just add `Secret.txt` to the `.gitignore` list, and thus providing the r
     * arguably the secret is now archived, but I have to obviously try not to lose the key
     * I can provide the key to other collaborators (`git-encrypt unlock pathToKey`)
     * anyone who clones or forks the repo can create their alternative secret (API key) on their branch 
+
+How does this compare to github's Secret (ghS) storage?
+    * github Secrets are encrypted outside the repository files, which is arguably less accident prone
+    * you have to use Actions to fetch them (with decrypting for contributors)
+    * so this will require some tricks to get the secret back into your application in your local repo
+    
+Footnote: on Apple Silicon Macs, you will have to adapt the path names to the .git/config file (I think the location of HomeBrew links changed):
+
+`[filter "git-crypt"]
+    smudge = \"/opt/homebrew/bin/git-crypt\" smudge
+    clean = \"/opt/homebrew/bin/git-crypt\" clean
+    required = true
+[diff "git-crypt"]
+    textconv = \"/opt/homebrew/bin/git-crypt\" diff`
