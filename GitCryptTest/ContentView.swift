@@ -13,8 +13,14 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            ZStack {
+                Color(.lightGray)
+                Text("Hello, world!")
+                    .foregroundColor(.black)
+            }
         }
+        .frame(width: 200, height: 20)
+        
     }
 }
 
