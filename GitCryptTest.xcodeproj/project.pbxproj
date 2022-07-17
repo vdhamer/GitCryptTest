@@ -17,6 +17,7 @@
 		D008F23F28845CE000248BB0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D008F24028845CE000248BB0 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		D06C648428848C2800AED5DF /* GitCryptTest */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GitCryptTest; sourceTree = "<group>"; };
+		D073A66D2884A9ED00FA1256 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +34,7 @@
 		D008F2232884534F00248BB0 = {
 			isa = PBXGroup;
 			children = (
+				D073A66D2884A9ED00FA1256 /* README.md */,
 				D06C648428848C2800AED5DF /* GitCryptTest */,
 				D008F24028845CE000248BB0 /* .gitattributes */,
 				D008F23F28845CE000248BB0 /* .gitignore */,
