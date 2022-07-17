@@ -13,7 +13,6 @@
 		D008F2372884535000248BB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D008F2362884535000248BB0 /* Preview Assets.xcassets */; };
 		D008F24128845CE000248BB0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D008F23F28845CE000248BB0 /* .gitignore */; };
 		D008F24228845CE000248BB0 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = D008F24028845CE000248BB0 /* .gitattributes */; };
-		D06C647F288476DC00AED5DF /* Secret.txt in Resources */ = {isa = PBXBuildFile; fileRef = D06C647E288476DC00AED5DF /* Secret.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		D008F23F28845CE000248BB0 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D008F24028845CE000248BB0 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
 		D008F243288465AC00248BB0 /* Unsecret.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Unsecret.txt; sourceTree = "<group>"; };
-		D06C647E288476DC00AED5DF /* Secret.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Secret.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				D008F2312884534F00248BB0 /* ContentView.swift */,
 				D008F2332884535000248BB0 /* Assets.xcassets */,
 				D008F2352884535000248BB0 /* Preview Content */,
-				D06C647E288476DC00AED5DF /* Secret.txt */,
 				D008F243288465AC00248BB0 /* Unsecret.txt */,
 			);
 			path = GitCryptTest;
@@ -139,7 +136,6 @@
 				D008F2372884535000248BB0 /* Preview Assets.xcassets in Resources */,
 				D008F24128845CE000248BB0 /* .gitignore in Resources */,
 				D008F2342884535000248BB0 /* Assets.xcassets in Resources */,
-				D06C647F288476DC00AED5DF /* Secret.txt in Resources */,
 				D008F24228845CE000248BB0 /* .gitattributes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
