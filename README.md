@@ -1,7 +1,8 @@
-# GitCryptTest
-Test of git-crypt with XCode
+#GitCryptTest
+##Test of git-crypt with XCode
 
 The software has an encrypted Secret.txt file and an unencrypted Unsecret.txt file.
+Secret.txt contains `Hello, secret World!` and Unsecret.txt contains `Hello, World!`. So not too thrilling information.
 The Secret.* file is configured to be encrypted and decrypted by [git-crypt](https://github.com/AGWA/git-crypt).
 
 If you don't have the key (not on hithub), your copy of Secret.txt is encrypted (GPG) and pretty useless.
